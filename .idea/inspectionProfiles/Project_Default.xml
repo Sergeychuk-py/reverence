@@ -5,7 +5,7 @@
     <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="ignoredPackages">
         <value>
-          <list size="16">
+          <list size="17">
             <item index="0" class="java.lang.String" itemvalue="annotated-types" />
             <item index="1" class="java.lang.String" itemvalue="pydantic" />
             <item index="2" class="java.lang.String" itemvalue="magic-filter" />
@@ -22,6 +22,7 @@
             <item index="13" class="java.lang.String" itemvalue="yarl" />
             <item index="14" class="java.lang.String" itemvalue="aiosignal" />
             <item index="15" class="java.lang.String" itemvalue="idna" />
+            <item index="16" class="java.lang.String" itemvalue="webdriver-manager" />
           </list>
         </value>
       </option>
@@ -36,7 +37,7 @@
     <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="ignoredIdentifiers">
         <list>
-          <option value="filter.*" />
+          <option value="chromedriver_binary" />
         </list>
       </option>
     </inspection_tool>
