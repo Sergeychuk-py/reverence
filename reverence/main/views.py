@@ -1,5 +1,4 @@
 from django.db.models import Q
-from django.shortcuts import render
 from .models import Category, Size, ClothingItem
 from django.views.generic import ListView, DetailView
 
@@ -11,10 +10,10 @@ class CatalogView(ListView):
 
     def get_queryset(self):
         queryset = super().get_queryset()
-        category_slugs = self.request.Get.getlist('category')
-        size_names = self.request.Get.getlist('size')
-        min_price = self.request.Get.get('min_price')
-        max_price = self.request.Get.get('max_price')
+        category_slugs = self.request.GET.getlist('category')
+        size_names = self.request.GET.getlist('size')
+        min_price = self.request.GET.get('min_price')
+        max_price = self.request.GET.get('max_price')
 
         if category_slugs:
             queryset = queryset.filter(category__slug__in=category_slugs)
