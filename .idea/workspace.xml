@@ -22,7 +22,7 @@
       <change afterPath="$PROJECT_DIR$/reverence/main/models.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/reverence/main/static/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/reverence/main/static/css/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reverence/main/templates/main/product/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reverence/main/templates/main/base.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/reverence/main/templates/main/product/detail.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/reverence/main/templates/main/product/list.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/reverence/main/tests.py" afterDir="false" />
@@ -52,9 +52,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2w4RYfdKgitYFqPVJunkSNPMx4k" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -69,9 +69,15 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/serge/PycharmProjects/ALKO-MARKET"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\serge\PycharmProjects\ALKO-MARKET\reverence\main\templates\main" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>

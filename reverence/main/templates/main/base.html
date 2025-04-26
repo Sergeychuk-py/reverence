@@ -1,0 +1,36 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=devise-widt, initial-scale=1.0">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+</head>
+<body>
+    <header class="header">
+        <div class="search">
+            <form action="" id="search_form" class="search_form">
+                <div class="input-search">
+                    <input type="text" name="q" class="form_input" placeholder="Search">
+                </div>
+                <div class="button-search">
+                    <button type="submit" class="btn_for_search">press</button>
+                </div>
+            </form>
+        </div>
+        <h2 class="title-alko">Alkomarket</h2>
+        <div class="header-nav">
+            <a href="#" class="h-profile">
+                <img src="{% static 'img/iconka-profile.png' %}" alt="profile">
+            </a>
+            <a href="#" class="h-profile">
+                <img src="{% static 'img/cart.png' %}" alt="cart">
+            </a>
+        </div>
+    </header>
+     <div class="container">
+        {% block content %}{% endblock content %}
+    </div>
+</body>
+</html>
