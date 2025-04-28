@@ -96,6 +96,7 @@ a {
 
 .category-option {
     margin-left: 500px;
+<<<<<<< HEAD
 }
 
 input[type='number']::-webkit-inner-spin-button,
@@ -114,3 +115,6 @@ input[type='number']::-webkit-inner-spin-button {
     margin-left: 150px;
     margin-top: -18px;
 }
+=======
+}
+>>>>>>> 330e0bbc6285442f88581b6d33e14dabaead4cad

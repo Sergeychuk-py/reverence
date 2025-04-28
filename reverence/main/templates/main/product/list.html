@@ -6,7 +6,11 @@
 {% block content %}
     <h1 class="rev-head text-uppercase" id="reverence-title">Reverence interlude - ALL</h1>
     <div class="catalog d-flex">
+<<<<<<< HEAD
         <form action="{% url 'main:catalog' %}" method="get" class="sidebar" id="filter-form">
+=======
+        <form action="{% url "main:catalog" %}" method="get" class="sidebar" id="filter-form">
+>>>>>>> 330e0bbc6285442f88581b6d33e14dabaead4cad
             <h4 class="price-head">Price Range:</h4>
             <div class="price-range d-flex justify-content-between">
                 <input type="number" name="min_price" id="min_price" placeholder="Min Price" value="{{ request.GET.min_price }}" oninput="debounceApplyFilters()">
@@ -19,7 +23,11 @@
                     <input type="checkbox" name="category" id="category-{{ category.slug }}" value="{{ category.slug }}"
                     {% if category.slug in selected_categories %}checked{% endif %} onchange="applyFilters()">
                     <label for="category-{{ category.slug }}" class="d-flex">
+<<<<<<< HEAD
                         <div class="category-name">{{ category.name }}</div> <div class="category-len"></div>
+=======
+                        <div class="category-name">{{ category.name }}</div> <div class="category-len">{{ category.get_item_count }}</div>
+>>>>>>> 330e0bbc6285442f88581b6d33e14dabaead4cad
                     </label>
                 </div>
             {% endfor %}

@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90b25312-fa52-4eba-a67b-51e0b1d974f8" name="Changes" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/ALKO-MARKET.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ALKO-MARKET.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -16,6 +17,38 @@
       <change beforePath="$PROJECT_DIR$/reverence/main/templates/main/product/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/reverence/main/templates/main/product/list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reverence/reverence/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/reverence/reverence/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reverence/reverence/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/reverence/reverence/urls.py" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/ALKO-MARKET.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reverence/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reverence/main/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reverence/main/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reverence/main/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reverence/main/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reverence/main/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reverence/main/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reverence/main/static/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reverence/main/static/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reverence/main/templates/main/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reverence/main/templates/main/product/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reverence/main/templates/main/product/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reverence/main/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reverence/main/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reverence/main/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reverence/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reverence/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reverence/reverence/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reverence/reverence/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reverence/reverence/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reverence/reverence/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reverence/reverence/wsgi.py" afterDir="false" />
+>>>>>>> 330e0bbc6285442f88581b6d33e14dabaead4cad
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,8 +84,12 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
+<<<<<<< HEAD
     "last_opened_file_path": "C:/Users/serge/PycharmProjects/reverence",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+=======
+    "last_opened_file_path": "C:/Users/serge/PycharmProjects/ALKO-MARKET"
+>>>>>>> 330e0bbc6285442f88581b6d33e14dabaead4cad
   }
 }]]></component>
   <component name="RecentsManager">
